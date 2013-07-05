@@ -13,7 +13,7 @@ class Object
   def require_relative(string)
     console.warn { require_relative string }
   end
-  def load(filename, wrap=false)
+  def motion_load(filename, wrap=false)
     console.warn { load filename }
   end
   alias :original_instance_eval :instance_eval

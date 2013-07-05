@@ -16,7 +16,7 @@ class Object
   end
   def require_relative(string)
   end
-  def load(filename, wrap=false)
+  def motion_load(filename, wrap=false)
   end
 end
 

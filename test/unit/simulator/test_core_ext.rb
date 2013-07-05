@@ -23,12 +23,12 @@ module Unit
 
             require "foo"
             require_relative "foo/bar"
-            load "foo/baz"
+            motion_load "foo/baz"
             autoload :Qux, "foo/qux"
 
             Unit.require "foo"
             Unit.require_relative "foo/bar"
-            Unit.load "foo/baz"
+            Unit.motion_load "foo/baz"
             Unit.autoload :Qux, "foo/qux"
 
             TestCoreExt.class_eval "def foo; end"
